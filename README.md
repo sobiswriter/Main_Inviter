@@ -1,7 +1,6 @@
 ![Screenshot 2025-04-03 221420](https://github.com/user-attachments/assets/5d0022e7-ac65-48eb-8859-9915c31af3c9)
 
-
-![Screenshot 2025-04-03 221608](https://github.com/user-attachments/assets/9799ddbf-440f-4e70-9c83-afaf7064a8dd)
+![Screenshot 2025-04-06 111754](https://github.com/user-attachments/assets/b2925d68-00fa-4a30-a92f-7038c12ae9d5)
 
 
 # 🎉 Event Inviter
@@ -75,19 +74,16 @@ Event-Inviter/
 ```
 
 🚀 Getting Started
-1. Clone the Repository
-->
+1. Clone the Repository ->
 git clone https://github.com/your-username/Event-Inviter.git
 cd Event-Inviter
 
-2. Setup Backend
+3. Setup Backend
 cd backend
 npm install
 Create a .env file with your credentials:
 
 env
-Copy
-Edit
 TWILIO_ACCOUNT_SID=your_twilio_sid
 TWILIO_AUTH_TOKEN=your_twilio_token
 SENDGRID_API_KEY=your_sendgrid_key

@@ -1,8 +1,5 @@
 ![Screenshot 2025-04-03 221420](https://github.com/user-attachments/assets/5d0022e7-ac65-48eb-8859-9915c31af3c9)
 
-![Screenshot 2025-04-06 111754](https://github.com/user-attachments/assets/b2925d68-00fa-4a30-a92f-7038c12ae9d5)
-
-
 # 🎉 Event Inviter
 
 Event Inviter is an intelligent event management system designed to streamline invitation creation, sending, and guest communication. Built with a modern tech stack, it integrates powerful APIs to automate SMS/email delivery and chatbot interaction for an interactive user experience.

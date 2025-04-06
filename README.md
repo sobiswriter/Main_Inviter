@@ -1,8 +1,14 @@
+![Screenshot 2025-04-03 221420](https://github.com/user-attachments/assets/5d0022e7-ac65-48eb-8859-9915c31af3c9)
+
+![Screenshot 2025-04-03 221608](https://github.com/user-attachments/assets/9799ddbf-440f-4e70-9c83-afaf7064a8dd)
+
+![Screenshot 2025-04-06 111533](https://github.com/user-attachments/assets/f0f1bee5-53be-4a84-a1ed-821157bb7a10)
+
+![Screenshot 2025-04-03 221655](https://github.com/user-attachments/assets/67ef2cc7-abe9-4ebf-bb1b-d1c4ce3a8c79)
+
 # 🎉 Event Inviter
 
 Event Inviter is an intelligent event management system designed to streamline invitation creation, sending, and guest communication. Built with a modern tech stack, it integrates powerful APIs to automate SMS/email delivery and chatbot interaction for an interactive user experience.
-
----
 
 ## ✨ Features
 
@@ -14,7 +20,6 @@ Event Inviter is an intelligent event management system designed to streamline i
 - 🌐 **Backend** powered by Node.js and Express for seamless API orchestration.
 - 📊 **Dashboard** to view invitations, guest statuses, and event insights.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -35,11 +40,9 @@ Event Inviter is an intelligent event management system designed to streamline i
 - Express.js
 - Supabase (Database & Auth)
 
----
 
 ## 📁 Directory Structure
 
-```bash
 Event-Inviter/
 ├── backend/
 │   ├── controllers/
@@ -103,7 +106,6 @@ npm install
 npm start
 The app will run at: http://localhost:3000
 
-📸 Screenshots
 
 
 ✅ Future Improvements

@@ -72,7 +72,7 @@ Event-Inviter/
 ├── .gitignore
 ├── README.md
 └── package-lock.json
-
+```
 
 🚀 Getting Started
 1. Clone the Repository

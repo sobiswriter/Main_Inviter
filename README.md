@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+# 🎉 Event Inviter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Event Inviter is an intelligent event management system designed to streamline invitation creation, sending, and guest communication. Built with a modern tech stack, it integrates powerful APIs to automate SMS/email delivery and chatbot interaction for an interactive user experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 💬 **AI Chatbot** using Gemini 2.0 Flash API for real-time Q&A about events.
+- 📧 **Email Invites** powered by SendGrid.
+- 📱 **SMS Invites** using Twilio API.
+- 🔐 **Authentication & Database** with Supabase.
+- 🖼️ **Beautiful UI** built with React and Tailwind CSS.
+- 🌐 **Backend** powered by Node.js and Express for seamless API orchestration.
+- 📊 **Dashboard** to view invitations, guest statuses, and event insights.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+### 🔧 Frontend
+- React.js (with Create React App)
+- Tailwind CSS
+- JSX Components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🧠 AI Integration
+- Gemini 2.0 Flash API (for Chatbot)
 
-### `npm run build`
+### 📲 Messaging & Emails
+- Twilio API (SMS)
+- SendGrid API (Emails)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ☁️ Backend
+- Node.js
+- Express.js
+- Supabase (Database & Auth)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📁 Directory Structure
 
-### `npm run eject`
+```bash
+Event-Inviter/
+├── backend/
+│   ├── controllers/
+│   ├── routes/
+│   ├── services/
+│   │   ├── twilioService.js
+│   │   ├── sendGridService.js
+│   │   └── chatbotService.js
+│   ├── config/
+│   ├── index.js
+│   └── .env
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Chatbot.js
+│   │   │   ├── Dashboard.js
+│   │   │   ├── InvitationForm.js
+│   │   │   └── Login.js
+│   │   ├── assets/
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   └── index.js
+│   ├── tailwind.config.js
+│   └── package.json
+│
+├── .gitignore
+├── README.md
+└── package-lock.json
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🚀 Getting Started
+1. Clone the Repository
+->
+git clone https://github.com/your-username/Event-Inviter.git
+cd Event-Inviter
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Setup Backend
+cd backend
+npm install
+Create a .env file with your credentials:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+env
+Copy
+Edit
+TWILIO_ACCOUNT_SID=your_twilio_sid
+TWILIO_AUTH_TOKEN=your_twilio_token
+SENDGRID_API_KEY=your_sendgrid_key
+SUPABASE_URL=your_supabase_url
+SUPABASE_KEY=your_supabase_key
+GEMINI_API_KEY=your_gemini_api_key
 
-## Learn More
+Start the backend:
+->
+npm start
+3. Setup Frontend
+->
+cd ../frontend
+npm install
+npm start
+The app will run at: http://localhost:3000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📸 Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+✅ Future Improvements
+Add calendar syncing (Google Calendar API)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Admin dashboard for event analytics
 
-### Analyzing the Bundle Size
+RSVP tracking and automated reminders
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Multi-language support
 
-### Making a Progressive Web App
+🧑‍💻 Contributing
+Pull requests are welcome! Feel free to open an issue or submit a feature request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

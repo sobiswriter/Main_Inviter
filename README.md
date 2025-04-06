@@ -1,10 +1,8 @@
 ![Screenshot 2025-04-03 221420](https://github.com/user-attachments/assets/5d0022e7-ac65-48eb-8859-9915c31af3c9)
 
+
 ![Screenshot 2025-04-03 221608](https://github.com/user-attachments/assets/9799ddbf-440f-4e70-9c83-afaf7064a8dd)
 
-![Screenshot 2025-04-06 111533](https://github.com/user-attachments/assets/f0f1bee5-53be-4a84-a1ed-821157bb7a10)
-
-![Screenshot 2025-04-03 221655](https://github.com/user-attachments/assets/67ef2cc7-abe9-4ebf-bb1b-d1c4ce3a8c79)
 
 # 🎉 Event Inviter
 
@@ -43,6 +41,7 @@ Event Inviter is an intelligent event management system designed to streamline i
 
 ## 📁 Directory Structure
 
+```bash
 Event-Inviter/
 ├── backend/
 │   ├── controllers/
